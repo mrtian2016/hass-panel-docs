@@ -1,0 +1,102 @@
+{
+  "gettingStarted": {
+    "en": "Getting Started",
+    "zh": "开始"
+  },
+  "guide": {
+    "en": "Guide",
+    "zh": "使用指南"
+  },
+  "community": {
+    "en": "Community",
+    "zh": "社区交流"
+  },
+  "install": {
+    "en": "Install",
+    "zh": "安装指南"
+  },
+  "usage": {
+    "en": "Usage",
+    "zh": "使用指南"
+  },
+  "qa": {
+    "en": "Q&A",
+    "zh": "常见问题"
+  },
+  "hero": {
+    "text": {
+      "en": "Smart Home Control Panel",
+      "zh": "智能家居控制面板"
+    },
+    "tagline": {
+      "en": "Modern smart home control interface based on React, perfectly integrated with Home Assistant",
+      "zh": "基于React的现代化智能家居控制界面，完美集成Home Assistant"
+    },
+    "quickStart": {
+      "en": "Quick Start",
+      "zh": "快速开始"
+    }
+  },
+  "features": {
+    "responsiveDesign": {
+      "title": {
+        "en": "Responsive Design",
+        "zh": "响应式设计"
+      },
+      "details": {
+        "en": "Perfect support for mobile and desktop, control your smart home anytime, anywhere",
+        "zh": "完美支持移动端和桌面端，随时随地控制您的智能家居"
+      }
+    },
+    "customization": {
+      "title": {
+        "en": "Highly Customizable",
+        "zh": "高度可定制"
+      },
+      "details": {
+        "en": "Support for drag-and-drop layout, card management, theme switching and more personalization options",
+        "zh": "支持自由拖拽布局、卡片管理、主题切换等多种个性化配置"
+      }
+    },
+    "pwa": {
+      "title": {
+        "en": "PWA Support",
+        "zh": "PWA支持"
+      },
+      "details": {
+        "en": "Support PWA installation to desktop, providing near-native app experience",
+        "zh": "支持PWA安装到桌面，提供接近原生应用的体验"
+      }
+    },
+    "devices": {
+      "title": {
+        "en": "Rich Device Support",
+        "zh": "丰富的设备支持"
+      },
+      "details": {
+        "en": "Support for control and monitoring of various smart devices including lights, AC, curtains, sensors, cameras",
+        "zh": "支持灯光、空调、窗帘、传感器、摄像头等多种智能设备的控制和监控"
+      }
+    },
+    "deployment": {
+      "title": {
+        "en": "Easy Deployment",
+        "zh": "简单部署"
+      },
+      "details": {
+        "en": "Support Docker deployment and Home Assistant plugin installation for quick start",
+        "zh": "支持Docker部署和Home Assistant插件方式安装，快速上手无障碍"
+      }
+    },
+    "realtime": {
+      "title": {
+        "en": "Real-time Updates",
+        "zh": "实时更新"
+      },
+      "details": {
+        "en": "Based on Home Assistant's Websocket API, ensuring real-time device status synchronization",
+        "zh": "基于Home Assistant的Websocket API，确保设备状态实时同步"
+      }
+    }
+  }
+}
