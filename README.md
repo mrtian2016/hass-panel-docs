@@ -1,29 +1,6 @@
-# Rspress website
 
-## Setup
+# [Hass Panel](https://github.com/mrtian2016/hass-panel)
 
-Install the dependencies:
+[![](https://img.shields.io/github/stars/mrtian2016/hass-panel?style=social)](https://github.com/mrtian2016/hass-panel)
 
-```bash
-npm install
-```
 
-## Get started
-
-Start the dev server:
-
-```bash
-npm run dev
-```
-
-Build the website for production:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```

@@ -36,7 +36,14 @@ export default defineConfig({
         text: 'community',
         link: '/community/index',
       },
+      {
+        text: 'sponsor',
+        link: '/sponsor/index',
+      },  
     ],
+    footer: {
+      message: 'Copyright © 2024-2025 Hass Panel｜备案号：<a href="https://beian.miit.gov.cn/">冀ICP备16022207号-5</a>',
+    },
     sidebar: {
       // 中文侧边栏
       '/guide/': [
@@ -55,6 +62,12 @@ export default defineConfig({
           link: '/community/index',
         },
       ],
+      '/sponsor/': [
+        {
+          text: '赞赏',
+          link: '/sponsor/index',
+        },
+      ],
       // 英文侧边栏
       '/en/guide/': [
         {
@@ -70,6 +83,12 @@ export default defineConfig({
         {
           text: 'Community',
           link: '/en/community/index',
+        },
+      ],
+      '/en/sponsor/': [
+        {
+          text: 'Sponsor',
+          link: '/en/sponsor/index',
         },
       ],
     },

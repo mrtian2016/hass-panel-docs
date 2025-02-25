@@ -12,18 +12,18 @@ Hass-Panel 提供了多种安装方式，您可以根据自己的需求选择合
 docker run \
   --name hass-panel \
   --restart unless-stopped \
-  -p 5123:5123 \
+  --network host \
   -v ./data/:/config/hass-panel \
   -d \
-  ghcr.io/mrtian2016/hass-panel:latest
+  registry.cn-hangzhou.aliyuncs.com/hass-panel/hass-panel:latest
 ```
 
 这个命令会：
 - 创建一个名为 `hass-panel` 的容器
 - 设置容器自动重启
-- 将容器的 5123 端口映射到主机的 5123 端口
 - 将配置文件保存在主机的 `./data/` 目录
 - 使用最新版本的 Hass-Panel 镜像
+- 访问地址：http://your-docker-host:5123
 
 ### 2. Home Assistant 插件安装
 
@@ -48,7 +48,7 @@ docker run \
 
 ```bash
 # 拉取最新镜像
-docker pull ghcr.io/mrtian2016/hass-panel:latest
+docker pull registry.cn-hangzhou.aliyuncs.com/hass-panel/hass-panel:latest
 
 # 停止并删除旧容器
 docker stop hass-panel
@@ -58,10 +58,9 @@ docker rm hass-panel
 docker run \
   --name hass-panel \
   --restart unless-stopped \
-  -p 5123:5123 \
   -v ./data/:/config/hass-panel \
   -d \
-  ghcr.io/mrtian2016/hass-panel:latest
+  registry.cn-hangzhou.aliyuncs.com/hass-panel/hass-panel:latest
 ```
 
 ### Home Assistant 插件版本升级
