@@ -11,6 +11,18 @@ export default defineConfig({
     light: '/icon.png',
     dark: '/icon.png',
   },
+  builderConfig: {
+    html: {
+      tags: [
+        {
+          tag: 'script',
+          attrs: {
+            src: 'https://hm.baidu.com/hm.js?109ff902df0bfbe5fc7cd4401cf0ba2f',
+          },
+        },
+      ],
+    },
+  },
   locales: [
     {
       lang: 'en',

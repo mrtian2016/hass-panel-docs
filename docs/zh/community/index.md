@@ -10,7 +10,7 @@
 
 | 微信群 |
 |--------|
-| ![微信群二维码]( https://i.imgur.com/jk0P9hZ.jpeg ) |
+| ![微信群二维码](https://i.imgur.com/ct6Tu5R.jpeg) |
 | 群聊: Hass Panel 交流群 |
 | 每二维码7天内有效，重新进入页面更新 |
 

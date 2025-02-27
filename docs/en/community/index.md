@@ -10,7 +10,7 @@
 
 | WeChat Group |
 |--------|
-| ![WeChat Group QR Code]( https://i.imgur.com/jk0P9hZ.jpeg ) |
+| ![WeChat Group QR Code]( https://i.imgur.com/ct6Tu5R.jpeg) |
 | Group: Hass Panel Community |
 | QR code valid for 7 days, refresh page to update |
 
