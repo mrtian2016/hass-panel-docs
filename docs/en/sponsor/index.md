@@ -32,6 +32,9 @@ Thank you to the following users for their generous sponsorship (in no particula
 - Dennis - 16.66
 - Green - ¥15.00
 - LiAH4 - ¥16.66
+- 施*林 - ¥500.00
+- 每攵 - ¥6.66
+- 老谭 - ¥18.88
 
 *Sponsor list is updated periodically
 
