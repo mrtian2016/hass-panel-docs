@@ -97,3 +97,29 @@ docker run \
 
 完成安装后，您可以通过访问 `http://您的服务器IP:5123` 来使用 hass-panel。
 
+### 4. 问：如何通过公网安全访问 hass-panel 和 Home Assistant？
+
+**答**：由于 hass-panel 需要连接 Home Assistant 的 WebSocket 接口，在公网访问时需要特别注意确保 WebSocket 连接正常工作。以下是几种常见的解决方案：
+
+#### 公网访问方案
+
+1. **端口转发**：如果您的宽带有公网 IP，可以在路由器上设置端口转发。
+2. **内网穿透**：如果没有公网 IP，可以使用 Frp、Ngrok、花生壳等内网穿透工具。
+3. **VPN 解决方案**：最安全的方案，如 WireGuard、OpenVPN、Tailscale/ZeroTier 等。
+
+#### 实现技术
+
+无论选择哪种公网访问方案，通常都需要配合以下技术实现：
+
+- **反向代理**：如 Nginx、Apache、Traefik 等，用于管理 HTTPS、路径映射和 WebSocket 支持。反向代理可以与上述任何方案结合使用，增强安全性和灵活性。
+
+#### 关键注意事项
+
+无论选择哪种方案，都需要注意以下几点：
+
+- **WebSocket 支持**：确保您的方案支持 WebSocket 连接，这对 hass-panel 至关重要
+- **安全性**：公网访问时，务必启用 HTTPS 和强密码保护
+- **配置 hass-panel**：在 hass-panel 配置中，必须使用公网可访问的 Home Assistant 地址（如 `https://your-domain.com` 或公网 IP 地址），而不是内网地址（如 `http://192.168.1.x:8123`）
+
+具体的实施方法请参考各方案的官方文档，或搜索相关教程进行配置。
+
