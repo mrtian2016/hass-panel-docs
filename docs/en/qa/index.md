@@ -123,3 +123,24 @@ docker run \
 
 具体的实施方法请参考各方案的官方文档，或搜索相关教程进行配置。
 
+### 5. 问：如何重新初始化Hass-Panel？
+
+**答**：Hass-Panel 提供了重置功能，可以重新初始化配置。
+
+1. 在 Hass-Panel 配置页面，打开“全局配置页面”。
+2. 在“全局配置页面”中，找到“重新初始化”按钮。
+3. 点击“重新初始化”按钮，确认重置。
+4. 重置完成后，Hass-Panel 将恢复到初始状态，您需要重新配置，卡片配置会保留，用户数据会清空。
+
+### 6. 问：无法打开 Hass-Panel 的时候如何重置？
+
+**答**：如果无法打开 Hass-Panel，可以尝试删除 Hass-Panel 的配置文件，然后重新启动加载项或者docker容器。
+
+1. 如果您是 Hass-Panel 加载项用户：
+   - 安装File Editor 加载项
+   - 找到/config/hass-panel/hass_panel.db文件，删除它
+   - 重新启动加载项
+
+2. 如果您是 Hass-Panel Docker 用户：
+   - 删除 Hass-Panel 的映射目录内的hass_panel.db文件
+   - 重新启动 Docker 容器
