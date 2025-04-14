@@ -37,6 +37,7 @@ Thank you to the following users for their generous sponsorship (in no particula
 - 老谭 - ¥18.88
 - **庆 - ¥30.00
 - LiAH4 - ¥16.66 
+- **飙 - ¥30.00
 
 *Sponsor list is updated periodically
 
